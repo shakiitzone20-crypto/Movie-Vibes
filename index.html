@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Vibes</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #111; color: #fff; }
+    header { background: #222; padding: 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; color: #ff4444; }
+    nav { background: #333; display: flex; justify-content: center; padding: 10px; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #ff4444; }
+    .container { padding: 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+    .movie-card { background: #222; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.5); }
+    .movie-card img { width: 100%; display: block; }
+    .movie-card h3 { margin: 10px; font-size: 1.2rem; }
+    .movie-card p { margin: 10px; font-size: 0.9rem; color: #ccc; }
+    footer { text-align: center; padding: 15px; background: #222; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Movie Vibes</h1>
+    <p>Your daily dose of movie inspiration</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Movies</a>
+    <a href="#">Reviews</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="container">
+    <div class="movie-card">
+      <img src="https://via.placeholder.com/300x400" alt="Movie Poster">
+      <h3>Sample Movie</h3>
+      <p>A short description about the movie.</p>
+    </div>
+    <div class="movie-card">
+      <img src="https://via.placeholder.com/300x400" alt="Movie Poster">
+      <h3>Another Movie</h3>
+      <p>This is another movie description.</p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Movie Vibes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
